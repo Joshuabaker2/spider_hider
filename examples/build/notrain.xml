@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/josh/dlib-18.17/not spiders/Draw-a-Realistic-Female-Eye-Step-10-Version-2.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/Person-tree.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/do2wnload (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/down2load (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/downlo2ad.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (10).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (3).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (4).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (5).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (6).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (7).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (8).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download (9).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/download.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/dragon-rider-1-1680x1050.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (3).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (4).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (5).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (6).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images (7).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/images.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/my-scar-drawing-hevenly-pack-pride-30819691-1595-940.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/pegasus_by_goldenphoenix100-d5e8xx9.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/rapunzel_drawing_4_by_b_agt-d3v5kbn.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/not spiders/taylor-swift-hot-taylor-swift-18776371-1163-1492.jpg'>
+  </image>
+</images>
+</dataset>

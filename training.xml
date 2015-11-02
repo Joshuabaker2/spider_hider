@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='spiders_train/09b_DSC_6246.jpg'>
+  </image>
+  <image file='spiders_train/Clynotis_severus,_AF_2.jpg'>
+  </image>
+  <image file='spiders_train/Eye_Arrangement_of_a_Hogna_Wolf_Spider.png'>
+  </image>
+  <image file='spiders_train/FishSpider_1000.jpg'>
+  </image>
+  <image file='spiders_train/Hogna_lenta_18.jpg'>
+  </image>
+  <image file='spiders_train/brown-recluse-spider-illustration_1017x605.jpg'>
+  </image>
+  <image file='spiders_train/brown_widow_spider_large.jpg'>
+  </image>
+  <image file='spiders_train/geekspider.jpg'>
+  </image>
+  <image file='spiders_train/maxresdefault.jpg'>
+  </image>
+  <image file='spiders_train/skeleton peacock spider.jpg'>
+  </image>
+  <image file='spiders_train/sydney-funnel-web-spider.jpg'>
+  </image>
+  <image file='spiders_train/wolf-spider-facts1.jpg'>
+  </image>
+</images>
+</dataset>

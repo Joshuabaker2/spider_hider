@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/josh/dlib-18.17/spiders2/Spider-Clip-Art-1.png'>
+    <box top='57' left='21' width='472' height='405'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (1).jpg'>
+    <box top='37' left='39' width='99' height='98'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (22).jpg'>
+    <box top='26' left='20' width='176' height='173'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (32).jpg'>
+    <box top='27' left='24' width='166' height='175'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (4).jpg'>
+    <box top='19' left='28' width='152' height='195'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (5).jpg'>
+    <box top='45' left='58' width='140' height='121'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (6).jpg'>
+    <box top='39' left='44' width='151' height='133'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (7).jpg'>
+    <box top='19' left='33' width='210' height='132'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (8).jpg'>
+    <box top='34' left='16' width='172' height='168'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images (9).jpg'>
+    <box top='16' left='68' width='133' height='146'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images.jpg'>
+    <box top='19' left='16' width='157' height='200'/>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders2/images.png'>
+    <box top='32' left='55' width='108' height='174'/>
+  </image>
+</images>
+</dataset>

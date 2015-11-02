@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/josh/dlib-18.17/new spiders to test/Diverse-crowd-of-people-horizontal-620x350.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/b95172e67a65210e5b7e85eb6c347126.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/crowds.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/download (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/download (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/download (3).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/download.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (3).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (4).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (5).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images (6).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/images.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/natgeo.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/peacock-spider-12[5].jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/peppermint-spiders2.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/new spiders to test/spider-michel.jpg'>
+  </image>
+</images>
+</dataset>

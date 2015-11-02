@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='/home/josh/dlib-18.17/spiders_testing/1412848016662_wps_9_Original_caption_A_female.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/934279efa56c5a55bc38defa633971ae_large.jpeg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/Anterior_Median_and_Anterior_Lateral_Eyes_of_a_Phidippus_princeps_Jumping_Spider.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/Blue_dragon_by_amisgaudi-d2a8qfu.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/Celebrity-Wallpapers-2D9.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/EUROPEAN_DRAGONS.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/Megan-Fox-1175210-small.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/Spiders_elitedaily.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/WetCat.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/afaf.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/asdf.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/cat8.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/cellar.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/crazy_cat_10.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/dbe5f0727b69487016ffd67a6689e75a.jpeg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/freelance-business-tips-from-snooki.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/huntsman-spider.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (1).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (2).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (3).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (4).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (5).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (6).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images (8).jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/images.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/maxresdefault.jpg'>
+  </image>
+  <image file='/home/josh/dlib-18.17/spiders_testing/megan_fox.jpg'>
+  </image>
+</images>
+</dataset>
