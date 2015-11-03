@@ -3,42 +3,32 @@
 # information about it at http://www.cmake.org
 #
 
-
 cmake_minimum_required(VERSION 2.8.4)
 
 PROJECT(examples)
 
 include(../dlib/cmake)
-
-# Tell CMake to compile a program.  We do this with the ADD_EXECUTABLE()
-# statement which takes the name of the output executable and then a list of
-# .cpp files to compile.  Here each example consists of only one .cpp file but
-# in general you will make programs that const of many .cpp files.
-
-
-
-
-
-# Since there are a lot of examples I'm going to use a macro to simply this
-# CMakeLists.txt file.  However, usually you will create only one executable in
-# your cmake projects and use the syntax shown above.
+include_directories(include)
 
 set(OpenCV_DIR "/usr/lib/opencv")
 find_package(OpenCV REQUIRED core imgproc highgui imgcodecs)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-MACRO(add_example name)
-   ADD_EXECUTABLE(${name} ${name}.cpp)
-   TARGET_LINK_LIBRARIES(${name} dlib )
-   TARGET_LINK_LIBRARIES(${name} curl )
-   TARGET_LINK_LIBRARIES(${name} ${OpenCV_LIBS} )
-ENDMACRO()
+set(CMAKE_C_FLAGS "-Wall")
+set(GETOS python tools/getos.py)
+set(OSHELPERS python tools/oshelpers.py)
+set(OSNAME shell ${GETOS})
+set(PNACL_TC_PATH toolchain/${OSNAME}_pnacl)
+set(PNACL_CXX $(PNACL_TC_PATH)/bin/pnacl-clang++)
+set(PNACL_FINALIZE $(PNACL_TC_PATH)/bin/pnacl-finalize)
+set(CXXFLAGS -I$(NACL_SDK_ROOT)/include)
+set(LDFLAGS -L/lib/pnacl/Release -lppapi_cpp -lppapi)
 
 
 
-add_example(spider_detector_url)
 
 
-if (DLIB_LINK_WITH_SQLITE3)
-   add_example(sqlite_ex)
-endif()
+ADD_EXECUTABLE(spider_detector_url spider_detector_url.cpp)
+TARGET_LINK_LIBRARIES(spider_detector_url dlib )
+TARGET_LINK_LIBRARIES(spider_detector_url curl )
+TARGET_LINK_LIBRARIES(spider_detector_url ${OpenCV_LIBS} )
