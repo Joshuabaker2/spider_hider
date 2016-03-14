@@ -1,0 +1,4 @@
+interface SpiderDetector {
+  void SpiderDetector();
+  bool isSpider(std::string imgString);
+};
