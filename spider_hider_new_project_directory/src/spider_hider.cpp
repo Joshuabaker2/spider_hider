@@ -22,6 +22,7 @@ int main(int argc, char** argv) {
 
         // mount the current folder as a NODEFS instance
         // inside of emscripten
+        // https://github.com/kripken/emscripten/blob/master/tests/fs/test_nodefs_rw.c
         EM_ASM(
           FS.mkdir('/working');
           FS.mount(NODEFS, { root: '.' }, '/working');
