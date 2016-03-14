@@ -1,0 +1,1 @@
+ -l../dlib/svm_threaded.h -l../dlib/image_processing.h -l../dlib/data_io.h 
