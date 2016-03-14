@@ -3,7 +3,7 @@
 #ifndef DLIB_TO_OPEN_Cv_Hh_
 #define DLIB_TO_OPEN_Cv_Hh_
 
-#include <opencv2/core/core.hpp>
+#include "opencv2/core/core.hpp"
 #include "to_open_cv_abstract.h"
 #include "../pixel.h"
 #include "../matrix/matrix.h"
@@ -42,4 +42,3 @@ namespace dlib
 }
 
 #endif // DLIB_TO_OPEN_Cv_Hh_
-

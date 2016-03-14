@@ -1,2 +1,0 @@
-/home/josh/dlib-18.17/examples/dlib_build/CMakeFiles/dlib.dir
-/home/josh/dlib-18.17/examples/CMakeFiles/spider_detector_url.dir

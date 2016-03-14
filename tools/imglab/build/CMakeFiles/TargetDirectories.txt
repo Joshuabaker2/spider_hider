@@ -1,2 +1,0 @@
-/home/josh/dlib-18.17/tools/imglab/build/dlib_build/CMakeFiles/dlib.dir
-/home/josh/dlib-18.17/tools/imglab/build/CMakeFiles/imglab.dir
