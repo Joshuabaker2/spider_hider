@@ -1,4 +1,5 @@
 interface SpiderDetector {
-  void SpiderDetector();
-  bool isSpider(std::string imgString);
+    void SpiderDetector();
+    void setDetector(DOMString detectorString);
+    boolean isSpider(DOMString imgString);
 };

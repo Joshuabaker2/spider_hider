@@ -25,3 +25,20 @@ The three different ways that we could communicate files to the C++ spiderDetect
 3. Download the image, convert it to a 2darray, and then pass THAT to the C++ code.
 
 Number three seems like the best way - but it is simpler coding-wise to do number two (hopefully). We will try number two, if that doesn't work, we will attempt number three, and finally - if all hope is lost, we will go with number one. If we have to do number one, we will need to use both the cURL library and OpenCV.
+
+## Generating the glue code
+We will use webidl to generate the glue code. The webidl-binder script is included in the default emscripten `tools` folder. Here is an example of a command to generate the glue code.
+```
+python ~/dev/emsdk_portable/emscripten/1.35.0/tools/webidl_binder.py SpiderDetector.idl SpiderDetectorGlue
+```
+For more information, [check out this link](https://kripken.github.io/emscripten-site/docs/porting/connecting_cpp_and_javascript/WebIDL-Binder.html#webidl-binder)
+
+To compile the project to use the glue code, use the following command:
+
+```
+emcc -O3 -I.. -s USE_LIBPNG=1 SpiderDetector.cpp --post-js SpiderDetectorGlue.js -o SpiderDetector.js
+```
+
+Typically, WebIDL Binder requires that you then create another `glue_wrapper.cpp` file that includes the `SpiderDetector.hpp` file. However, that will cause DLIB to complain, since we have the `NO_MAKEFILE` flag set (and having more than one file including our .hpp file breaks the rules for using this flag).
+The way we get around it is by editing SpiderDetectorGlue.cpp and include SpiderDetector.hpp at the top. The disadvantage to having to do it this way is that we need to do this every time the IDL file is compiled.
+

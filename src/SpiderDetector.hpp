@@ -14,14 +14,12 @@
 using namespace dlib;
 
 class SpiderDetector {
-
-
 public:
-  SpiderDetector();
-  bool isSpider(std::string imgString);
+    SpiderDetector();
+    bool isSpider(std::string imgString);
+    void setDetector(std::string detectorString);
 private:
     array2d<rgb_pixel> _img;
-    // std::string _workingDirectory;
     typedef scan_fhog_pyramid<pyramid_down<10> > _image_scanner_type;
     object_detector<_image_scanner_type> _detector;
 };
