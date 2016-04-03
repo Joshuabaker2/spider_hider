@@ -1,5 +1,0 @@
-interface SpiderDetector {
-    void SpiderDetector();
-    void setDetector(DOMString detectorString);
-    boolean isSpider(DOMString imgString);
-};
