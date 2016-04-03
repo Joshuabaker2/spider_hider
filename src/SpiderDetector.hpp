@@ -10,12 +10,14 @@
 #include <stdio.h>
 #include <string>
 #include <emscripten.h>
+#include <emscripten/bind.h>
 
 using namespace dlib;
+using namespace emscripten;
 
 class SpiderDetector {
 public:
-    SpiderDetector();
+    SpiderDetector() {}
     bool isSpider(std::string imgString);
     void setDetector(std::string detectorString);
 private:
@@ -23,3 +25,12 @@ private:
     typedef scan_fhog_pyramid<pyramid_down<10> > _image_scanner_type;
     object_detector<_image_scanner_type> _detector;
 };
+
+// Binding code
+EMSCRIPTEN_BINDINGS(my_class_example) {
+    class_<SpiderDetector>("SpiderDetector")
+            .constructor<>()
+            .function("isSpider", &SpiderDetector::isSpider)
+            .function("setDetector", &SpiderDetector::setDetector)
+    ;
+}
